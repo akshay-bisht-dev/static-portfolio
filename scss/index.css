@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(red, purple);
+  background-position: center;
+  background-attachment: fixed;
+}
+body::after {
+  content: "akshay.bisht.dev@gmail.com";
+  position: fixed;
+  bottom: 15rem;
+  left: -80px;
+  color: white;
+  transform: rotate(-90deg);
+  font-size: 1.5rem;
+}
+body::before {
+  content: '" Make it work, make it right, make it fast. "';
+  position: fixed;
+  bottom: 20rem;
+  right: -150px;
+  color: white;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.myNavbar {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.myNavDiv {
+  padding: 0 !important;
+}
+
+.myLinks {
+  font-size: 1.8rem !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.myToggle {
+  border: 1px solid white !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.home {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: calc(100vh - 5rem);
+  color: white;
+  position: relative;
+}
+.home h4 {
+  text-transform: uppercase;
+}
+.home h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.home h1 span {
+  color: yellow;
+}
+.home p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+.home button {
+  color: white !important;
+  border: 1px solid white !important;
+  text-transform: uppercase !important;
+}
+.home .arrowDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .arrowDiv .myArrow {
+  color: white;
+  font-size: 3rem;
+  animation: arrow 2s linear infinite alternate-reverse;
+  position: absolute;
+  bottom: 5rem;
+  cursor: pointer;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.about {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+.about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.about p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+.about .myIcon {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.skills {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+.skills h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.skills .skill-list {
+  width: 75%;
+}
+.skills .skill-list li {
+  margin-bottom: 15.5px;
+}
+.skills .skill-list li h3 {
+  margin: 10px 0;
+}
+.skills .bar {
+  background: white;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+.skills .bar span {
+  height: 4px;
+  float: left;
+  background: black;
+}
+.skills .html {
+  width: 90%;
+  -webkit-animation: html 2s;
+          animation: html 2s;
+}
+.skills .css3 {
+  width: 60%;
+  -webkit-animation: css3 2s;
+          animation: css3 2s;
+}
+.skills .boot {
+  width: 80%;
+  -webkit-animation: boot 2s;
+          animation: boot 2s;
+}
+.skills .scss {
+  width: 70%;
+  -webkit-animation: scss 2s;
+          animation: scss 2s;
+}
+.skills .react {
+  width: 50%;
+  -webkit-animation: react 2s;
+          animation: react 2s;
+}
+.skills .js {
+  width: 60%;
+  -webkit-animation: js 2s;
+          animation: js 2s;
+}
+.skills .jquery {
+  width: 40%;
+  -webkit-animation: jquery 2s;
+          animation: jquery 2s;
+}
+.skills .material {
+  width: 50%;
+  -webkit-animation: material 2s;
+          animation: material 2s;
+}
+@-webkit-keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes css3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes css3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-webkit-keyframes boot {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes boot {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@-webkit-keyframes scss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes scss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-webkit-keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-webkit-keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@-webkit-keyframes material {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes material {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.passion {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: white;
+  position: relative;
+  padding: 2rem 0;
+}
+.passion h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.work {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: white;
+  position: relative;
+  padding: 2rem 0;
+}
+.work h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contact {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+.contact h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+form {
+  width: 100%;
+}
+form .textarea {
+  height: 10rem;
+}
+form .form-text {
+  color: black;
+  font-weight: bolder;
+}
+form button {
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.footer {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1rem 0;
+  color: white;
+}
+.footer p {
+  text-transform: uppercase;
+}/*# sourceMappingURL=index.css.map */

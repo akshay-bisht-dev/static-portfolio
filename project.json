@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "PORTFOLIO - 1",
+        "img": "https://st2.depositphotos.com/1032577/6582/i/450/depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg",
+        "skills": "HTML, CSS, JS",
+        "url": "https://first-portfolio-ak.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "PORTFOLIO - 2",
+        "img": "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg",
+        "skills": "HTML, CSS, JS",
+        "url": "https://second-portfolio-ak.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "SIT WEBX",
+        "img": "https://img.freepik.com/premium-vector/school-building-educational-institution-with-front-yard-trees-grass-lawn_254685-655.jpg?w=2000",
+        "skills": "HTML, CSS, JS",
+        "url": "https://sit-webx.web.app/"
+    },
+    {
+        "id": 4,
+        "name": "MOVIE WEBX",
+        "img": "https://img.freepik.com/premium-vector/retro-cinema-projector-poster_185351-2.jpg?w=2000",
+        "skills": "HTML, CSS, JS",
+        "url": "https://movie-webx.web.app/"
+    },
+    {
+        "id": 5,
+        "name": "PG LIFE",
+        "img": "https://www.colive.com/blog/wp-content/uploads/2022/06/Dn_8_HQXsAEJhG4-696x464.jpg",
+        "skills": "HTML, CSS, Bootstrap, JS",
+        "url": "https://pg-life-webx.web.app/"
+    },
+    {
+        "id": 6,
+        "name": "NodeX",
+        "img": "https://images.unsplash.com/20/cambridge.JPG?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8dW5pdmVyc2l0eXxlbnwwfHx8fDE2NjYzNTUzNjk&ixlib=rb-4.0.3",
+        "skills": "HTML, CSS, NodeJS, ExpressJS",
+        "url": "https://nodex-web.herokuapp.com/"
+    },
+    {
+        "id": 7,
+        "name": "CUBEX BLOG",
+        "img": "https://lotosikra.github.io/img/templates/stylish-portfolio.jpg",
+        "skills": "HTML, Bootstrap",
+        "url": "https://cubex-blog.web.app/"
+    },
+    {
+        "id": 8,
+        "name": "CODER AK BLOG",
+        "img": "https://images.template.net/wp-content/uploads/2015/08/Bootstrap-landing-page-templates.jpg",
+        "skills": "HTML, CSS, Bootstrap",
+        "url": "https://coder-ak-blog.web.app/"
+    }
+]

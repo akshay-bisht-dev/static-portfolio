@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "🔴 How to Fetch and Display Html Form Data using Javascript Full explanation | Coder Hindi",
+        "url": "https://www.youtube.com/embed/KR5fKQcuheM"
+    },
+    {
+        "id": 2,
+        "title": "🔴 Build Simple Calculator With JavaScript HTML CSS | Creating a Calculator using JavaScript| Coder Hindi",
+        "url": "https://www.youtube.com/embed/xnezUAYFNqA"
+    },
+    {
+        "id": 3,
+        "title": "🔴 How to Easily Call APIs With Fetch and Async/Await in JavaScript | Fetch API Javasript in Hindi | Coder Hindi",
+        "url": "https://www.youtube.com/embed/OQ6Kvd7QIMc"
+    },
+    {
+        "id": 4,
+        "title": "🔴 Page Scroll Progress Indicator using Html CSS and JavaScript | Progress Bar | JavaScript Project | Coder Hindi",
+        "url": "https://www.youtube.com/embed/UaPlXBytBQE"
+    },
+    {
+        "id": 5,
+        "title": "🔴 How to Easily Call APIs With Fetch and Async/Await in JavaScript | Fetch API Javasript in Hindi | Coder Hindi",
+        "url": "https://www.youtube.com/embed/OQ6Kvd7QIMc"
+    },
+    {
+        "title": "🔴 How to Easily Call APIs With Fetch and Async/Await in JavaScript | Fetch API Javasript in Hindi | Coder Hindi",
+        "url": "https://www.youtube.com/embed/OQ6Kvd7QIMc"
+    }
+]

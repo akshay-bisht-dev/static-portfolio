@@ -1,0 +1,388 @@
+@import './color';
+@import './mixin';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    background: $bg;
+    background-position: center;
+    background-attachment: fixed;
+
+    &::after{
+        content: "akshay.bisht.dev@gmail.com";
+        position: fixed;
+        bottom: 15rem;
+        left: -80px;
+        color: $white;
+        transform: rotate(-90deg);
+        font-size: 1.5rem;
+    }
+
+
+    &::before{
+        content: '" Make it work, make it right, make it fast. "';
+        position: fixed;
+        bottom: 20rem;
+        right: -150px;
+        color: $white;
+        transform: rotate(90deg);
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
+
+// Navbar ==========================================
+.myNavbar{
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+.myNavDiv{
+    padding: 0 !important;
+}
+.myLinks{
+    font-size: 1.8rem !important;
+    color: $white !important;
+    text-transform: uppercase;
+}
+.myToggle{
+    border: 1px solid white !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+// Home ==========================================
+.home{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: calc(100vh - 5rem);
+    color: $white;
+    position: relative;
+
+    h4{
+        text-transform: uppercase;
+    }
+    h1{
+        @include heading;
+
+        span{
+            color: yellow;
+        }
+    }
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    button{
+        color: white !important;
+        border: 1px solid white !important;
+        text-transform: uppercase !important;
+    }
+    .arrowDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .myArrow{
+            color: white;
+            font-size: 3rem;
+            animation: arrow 2s linear infinite alternate-reverse;
+            position: absolute;
+            bottom: 5rem;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@keyframes arrow {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+// About ==========================================
+.about{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    color: $white;
+    position: relative;
+
+    h4{
+        @include heading;
+    }
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    .myIcon{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+}
+
+
+
+
+
+.skills{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    color: $white;
+    position: relative;
+
+    h1{
+        @include heading;
+    }
+
+    .skill-list {
+        width: 75%;
+    }
+    
+    .skill-list li {
+        margin-bottom: 15.5px;
+    }
+    
+    .skill-list li h3 {
+        margin: 10px 0;
+    }
+    
+    .bar {
+        background: white;
+        display: block;
+        height: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 10px black;
+    }
+    
+    .bar span {
+        height: 4px;
+        float: left;
+        background: black;
+    }
+    
+    .html {
+        width: 90%;
+        animation: html 2s;
+    }
+    .css3{
+        width: 60%;
+        animation: css3 2s;
+    }
+    .boot{
+        width: 80%;
+        animation: boot 2s;
+    }
+    .scss{
+        width: 70%;
+        animation: scss 2s;
+    }
+    .react{
+        width: 50%;
+        animation: react 2s;
+    }
+    .js{
+        width: 60%;
+        animation: js 2s;
+    }
+    .jquery{
+        width: 40%;
+        animation: jquery 2s;
+    }
+    .material{
+        width: 50%;
+        animation: material 2s;
+    }
+    
+    
+    @keyframes html {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+        }
+    }
+    @keyframes css3 {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+    @keyframes boot {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 80%;
+        }
+    }
+    @keyframes scss {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }
+    @keyframes react {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+    @keyframes js {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+    @keyframes jquery {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 40%;
+        }
+    }
+    @keyframes material {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+}
+
+
+
+
+
+.passion{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: max-content;
+        color: $white;
+        position: relative;
+        padding: 2rem 0;
+
+        h1{
+        @include heading;
+        }
+}
+
+
+
+
+
+.work{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: max-content;
+    color: $white;
+    position: relative;
+    padding: 2rem 0;
+
+    h1{
+    @include heading;
+    }
+}
+
+
+
+
+
+.contact{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    color: $white;
+    position: relative;
+
+    h1{
+        @include heading;
+    }
+}
+form{
+    width: 100%;
+
+    .textarea{
+        height: 10rem;
+    }
+    .form-text{
+        color: $heading;
+        font-weight: bolder;
+    }
+    button{
+        color: $white !important;
+        border: 1px solid $white !important;
+    }
+}
+
+
+
+
+
+.footer{
+    height: max-content;
+    padding: 1rem 0;
+    color: $white;
+
+    p{
+        text-transform: uppercase;
+    }
+}
