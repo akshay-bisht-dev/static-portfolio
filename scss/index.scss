@@ -48,7 +48,7 @@ body{
 .myNavDiv{
     padding: 0 !important;
 }
-.myLinks{
+.nav-link, .navbar-brand{
     font-size: 1.8rem !important;
     color: $white !important;
     text-transform: uppercase;
